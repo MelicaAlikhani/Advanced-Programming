@@ -28,17 +28,17 @@ void Fish::fish() {
         {
             std::cout << " ";
         }
-        std::cout << "    |\    o\n";
+        std::cout << "    |\\    o\n";
         for (int steps = 0; steps < 30; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "   |  \    o    \n";
+        std::cout << "   |  \\    o    \n";
         for (int steps = 0; steps < 30; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "   |\ /    0\ o   \n";
+        std::cout << "   |\\ /    0\\ o   \n";
         for (int steps = 0; steps < 30; ++steps)
         {
             std::cout << " ";
@@ -48,7 +48,7 @@ void Fish::fish() {
         {
             std::cout << " ";
         }
-        std::cout << "   |/ \     / \n";
+        std::cout << "   |/ \\     / \n";
         for (int steps = 0; steps < 30; ++steps)
         {
             std::cout << " ";
@@ -62,37 +62,37 @@ void Fish::fish() {
 
         std::this_thread::sleep_for(1000ms);
         system("CLS");
-        for (int steps = 0; steps < 30; ++steps)
+        for (int steps = 0; steps < 60; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "    |\    \n";
-        for (int steps = 0; steps < 30; ++steps)
+        std::cout << "    |\\    \n";
+        for (int steps = 0; steps < 60; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "   |  \       \n";
-        for (int steps = 0; steps < 30; ++steps)
+        std::cout << "   |  \\       \n";
+        for (int steps = 0; steps < 60; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "   |\ /    x\    \n";
-        for (int steps = 0; steps < 30; ++steps)
+        std::cout << "   |\\ /    x\\    \n";
+        for (int steps = 0; steps < 60; ++steps)
         {
             std::cout << " ";
         }
         std::cout << "   | |       (  \n";
-        for (int steps = 0; steps < 30; ++steps)
+        for (int steps = 0; steps < 60; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "   |/ \     / \n";
-        for (int steps = 0; steps < 30; ++steps)
+        std::cout << "   |/ \\     / \n";
+        for (int steps = 0; steps < 60; ++steps)
         {
             std::cout << " ";
         }
         std::cout << "   |  / \n";
-        for (int steps = 0; steps < 30; ++steps)
+        for (int steps = 0; steps < 60; ++steps)
         {
             std::cout << " ";
         }

@@ -30,88 +30,91 @@ void Bear::bear() {
         {
             std::cout << " ";
         }
-        std::cout << " __         __   \n";
+        std::cout << "   __         __     \n";
         for (int steps = 0; steps < 30; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "/  \.-"" - . / \  \n";
+        std::cout << "/  \\.-"" - . / \\  \n";
         for (int steps = 0; steps < 30; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "\    -   -    /\n";
+        std::cout << "\\    -   -    /    \n";
        
-        for (int steps = 0; steps < 60; ++steps)
+        for (int steps = 0; steps < 30; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "    |   o   o   | \n";
-        for (int steps = 0; steps < 60; ++steps)
+        std::cout << "  |   o   o   |     \n";
+        for (int steps = 0; steps < 30; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "  \  .-'''-.  /\n";
-        for (int steps = 0; steps < 60; ++steps)
+        std::cout << "  \\  .-'''-.  /   \n";
+        for (int steps = 0; steps < 30; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << " '-\__Y__/-' \n";
-        for (int steps = 0; steps < 60; ++steps)
+        std::cout << "  '-\\__Y__/-'    \n";
+        for (int steps = 0; steps < 30; ++steps)
         {
             std::cout << " ";
         }
         std::cout << "        \n";
-        for (int steps = 0; steps < 60; ++steps)
+        for (int steps = 0; steps < 30; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "   `---` \n";
+        std::cout << "    `---`     \n";
 
         std::this_thread::sleep_for(1000ms);
         system("CLS");
        
-        for (int steps = 0; steps < 30; ++steps)
+        for (int steps = 0; steps < 100; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << " __         __   \n";
-        for (int steps = 0; steps < 30; ++steps)
+        std::cout << "   __         __    \n";
+        for (int steps = 0; steps < 100; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "/  \.-"" - . / \  \n";
-        for (int steps = 0; steps < 30; ++steps)
+        std::cout << "/  \\.-"" - . / \\  \n";
+        for (int steps = 0; steps < 100; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "\    -   -    /\n";
+        std::cout << " \\    -   -    /   \n";
 
-        for (int steps = 0; steps < 60; ++steps)
+        for (int steps = 0; steps < 100; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "    |   o   o   | \n";
-        for (int steps = 0; steps < 60; ++steps)
+        std::cout << "  |   o   o   |     \n";
+        for (int steps = 0; steps < 100; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "  \  .-'''-.  /\n";
-        for (int steps = 0; steps < 60; ++steps)
+        std::cout << "   \\  .-'''-.  /   \n";
+        for (int steps = 0; steps < 100; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << " '-\__Y__/-' \n";
-        for (int steps = 0; steps < 60; ++steps)
+        std::cout << "    '-\\__Y__/-'    \n";
+        for (int steps = 0; steps < 100; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "     | | |   \n";
-        for (int steps = 0; steps < 60; ++steps)
+        std::cout << "        | | |       \n";
+        for (int steps = 0; steps < 100; ++steps)
         {
             std::cout << " ";
         }
-        std::cout << "   `---` \n";
+        std::cout << "        `---`       \n";
+
+        std::this_thread::sleep_for(1000ms);
+        system("CLS");
 
 
         auto end = std::chrono::high_resolution_clock::now();

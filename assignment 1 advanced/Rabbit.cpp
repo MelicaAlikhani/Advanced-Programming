@@ -33,7 +33,7 @@ void Rabbit::rabbit() {
         {
             std::cout << " ";
         }
-        std::cout << "   ('>\n";
+        std::cout << "   ('> \n";
         for (int steps = 0; steps < 30; ++steps)
         {
             std::cout << " ";
@@ -44,64 +44,64 @@ void Rabbit::rabbit() {
         {
             std::cout << " ";
         }
-            std::cout <<" *\))_   \n";
+            std::cout <<" *\\))_   \n";
       
     
     std::this_thread::sleep_for(1000ms);
     system("CLS");
 
-    for (int steps = 0; steps < 30; ++steps)
+    for (int steps = 0; steps < 60; ++steps)
     {
         std::cout << " ";
     }
     std::cout << "   // \n";
-    for (int steps = 0; steps < 30; ++steps)
+    for (int steps = 0; steps < 60; ++steps)
     {
         std::cout << " ";
     }
     std::cout << "  ('>\n";
-    for (int steps = 0; steps < 30; ++steps)
+    for (int steps = 0; steps < 60; ++steps)
     {
         std::cout << " ";
     }
 
     std::cout << "  /rr \n";
-    for (int steps = 0; steps < 30; ++steps)
+    for (int steps = 0; steps < 60; ++steps)
     {
         std::cout << " ";
     }
     std::cout << "    )\n";
-    for (int steps = 0; steps < 30; ++steps)
+    for (int steps = 0; steps < 60; ++steps)
     {
         std::cout << " ";
     }
-        std::cout << " *\))_   \n";
+        std::cout << " *\\))_   \n";
     
     std::this_thread::sleep_for(1000ms);
     system("CLS");
 
-    for (int steps = 0; steps < 30; ++steps)
+    for (int steps = 0; steps < 100; ++steps)
     {
         std::cout << " ";
     }
     std::cout << "   // \n";
-    for (int steps = 0; steps < 30; ++steps)
+    for (int steps = 0; steps < 100; ++steps)
     {
         std::cout << " ";
     }
     std::cout << "  <')\n";
-    for (int steps = 0; steps < 30; ++steps)
+    for (int steps = 0; steps < 100; ++steps)
     {
         std::cout << " ";
     }
 
     std::cout << "  /rr \n";
-    for (int steps = 0; steps < 30; ++steps)
+    for (int steps = 0; steps < 100; ++steps)
     {
         std::cout << " ";
     }
     std::cout << "    )\n";
-    for (int steps = 0; steps < 30; ++steps)
+    for (int steps = 0; steps < 100; ++steps)
     {
         std::cout << " ";
     }

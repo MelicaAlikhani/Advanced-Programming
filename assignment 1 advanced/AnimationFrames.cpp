@@ -6,7 +6,7 @@
 #include "ant.h"
 #include "Frog.h"
 #include "Rabbit.h"
-#include"Monkey.h"
+#include"Dolphin.h"
 #include"Fish.h"
 #include "Bear.h"
 #include "AnimationFrames.h"
@@ -16,7 +16,7 @@ int AnimationFrames::animation() {
     Rabbit R;
     frog F;
     Fish FI;
-    monkey M;
+    Dolphin D;
     Bear B;
    
     R.rabbit();
@@ -25,7 +25,7 @@ int AnimationFrames::animation() {
     system("pause");
     FI.fish();
     system("pause");
-    M.Monkey();
+    D.dolphin();
     system("pause");
     B.bear();
     system("pause");

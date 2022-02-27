@@ -15,7 +15,7 @@ void ant::Ant() {
           while (getline(myFile, line))
           {
               cout << line << '\n';
-          }
+        }
           
     auto start = std::chrono::high_resolution_clock::now();
     std::this_thread::sleep_for(1000ms);
@@ -24,7 +24,7 @@ void ant::Ant() {
     {
         std::cout << " ";
     }
-    std::cout << " \(..)/ \n";
+    std::cout << " \\(..)/ \n";
     for (int steps = 0; steps < 30; ++steps)
     {
         std::cout << " ";
@@ -41,7 +41,7 @@ void ant::Ant() {
     {
         std::cout << " ";
     }
-    std::cout << "\(..)/\n";
+    std::cout << "\\(..)/\n";
     for (int steps = 0; steps < 60; ++steps)
     {
         std::cout << " ";
@@ -51,11 +51,11 @@ void ant::Ant() {
     {
         std::cout << " ";
     }
-    std::cout << " /(__)\ \n";
+    std::cout << " /(__)\\ \n";
     std::this_thread::sleep_for(1000ms);
     system("CLS");
 
-    std::cout << "  \(..)/\n";
+    std::cout << "  \\(..)/\n";
     for (int steps = 0; steps < 60; ++steps)
     {
         std::cout << " ";
@@ -65,7 +65,7 @@ void ant::Ant() {
     {
         std::cout << " ";
     }
-    std::cout << "   /(__)\ \n";
+    std::cout << "   /(__)\\ \n";
     std::this_thread::sleep_for(1000ms);
     system("CLS");
 
