@@ -15,25 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Dog.cpp">
+    <ClCompile Include="Rabbit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cat.cpp">
+    <ClCompile Include="ant.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Frog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Shark.cpp">
+    <ClCompile Include="Fish.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Monkey.cpp">
+    <ClCompile Include="Dolphin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="AnimationFrames.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Spider.cpp">
+    <ClCompile Include="Bear.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
@@ -44,19 +44,19 @@
     <ClInclude Include="Frog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Dog.h">
+    <ClInclude Include="Rabbit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="cat.h">
+    <ClInclude Include="ant.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Shark.h">
+    <ClInclude Include="Fish.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Monkey.h">
+    <ClInclude Include="Dolphin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Spider.h">
+    <ClInclude Include="Bear.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AnimationFrames.h">

@@ -3,32 +3,31 @@
 #include <thread>
 #include <stdlib.h>
 #include <iomanip>
-#include "cat.h"
+#include "ant.h"
 #include "Frog.h"
-#include "Dog.h"
+#include "Rabbit.h"
 #include"Monkey.h"
-#include"Shark.h"
-#include "Spider.h"
+#include"Fish.h"
+#include "Bear.h"
 #include "AnimationFrames.h"
 
 int AnimationFrames::animation() {
-    cat C;
-    Dog D;
+    ant A;
+    Rabbit R;
     frog F;
-    shark S;
+    Fish FI;
     monkey M;
-    spider Sp;
-    C.Cat();
-    system("pause");
-    D.dog();
+    Bear B;
+   
+    R.rabbit();
     system("pause");
     F.Frog();
     system("pause");
-    S.Shark();
+    FI.fish();
     system("pause");
     M.Monkey();
     system("pause");
-    Sp.Spider();
+    B.bear();
     system("pause");
 
 

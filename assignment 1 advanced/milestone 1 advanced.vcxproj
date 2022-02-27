@@ -139,23 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Dog.cpp" />
-    <ClCompile Include="cat.cpp" />
+    <ClCompile Include="Rabbit.cpp" />
+    <ClCompile Include="ant.cpp" />
     <ClCompile Include="Frog.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Shark.cpp" />
-    <ClCompile Include="Monkey.cpp" />
+    <ClCompile Include="Fish.cpp" />
+    <ClCompile Include="Dolphin.cpp" />
     <ClCompile Include="AnimationFrames.cpp" />
-    <ClCompile Include="Spider.cpp" />
+    <ClCompile Include="Bear.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Dog.h" />
-    <ClInclude Include="cat.h" />
+    <ClInclude Include="Rabbit.h" />
+    <ClInclude Include="ant.h" />
     <ClInclude Include="Frog.h" />
     <ClInclude Include="AnimationFrames.h" />
-    <ClInclude Include="Shark.h" />
-    <ClInclude Include="Monkey.h" />
-    <ClInclude Include="Spider.h" />
+    <ClInclude Include="Fish.h" />
+    <ClInclude Include="Dolphin.h" />
+    <ClInclude Include="Bear.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
